@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modelo basico</title>
-    <link rel="stylesheet" href="estilo.css" />
-  </head>
-  <body>
-    <header>
-      <h1>CONTADOR COM PASSO</h1>
-    </header>
-    <section>
-      <div id="dados"><p>
-        A partir do número:
-        <input type="number" name="first" id="txti"/>
-      </p>
-      <p>
-        Até o número:
-        <input type="number" name="last" id="txtf"/>
-      </p>
-      <p>
-        Pulando de:
-        <input type="number" name="pulando" id="txtp"/>
-      </p></div>
-      <p>
-        <input type="button" value="Contar" onclick="contar()"/>
-      </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contador</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Vamos contar...</h1>
+  </header>
+  <section>
+    <form>
+      <label>
+        Inicio:
+        <input type="number" id="inicio" min="0">
+      </label>
+      <label>
+        Fim:
+        <input type="number" id="fim" min="0">
+      </label>
+      <label>
+        Passo:
+        <input type=number id="passo" min="0">
+      </label>
+    </form>
+    <p>
+      <input type="button" value="Contar" class="bt" onclick="contar()">
+    </p>
     </div>
+
     <div id="res">Preencha os dados acima para ver o resultado!!</div>
   </section>
-    <footer>
-      <p>&copy; AnaCursos</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+  </section>
+  <footer>
+    <p>&copy; AnaCursos</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
