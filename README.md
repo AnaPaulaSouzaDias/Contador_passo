@@ -12,7 +12,7 @@
 
 <div>
 <p>
-   <img src="./.github/layout.png" width="400px">
+   <img src="./.github/layout.jpeg" width="400px">
    <img src="./.github/layout1.jpeg" width="400px">
    <img src="./.github/layout2.jpeg" width="400px">
    </p>
